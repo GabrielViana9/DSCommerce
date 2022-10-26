@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+html, body {
+    background-color: var(--color-light-gray);
+}
+
+:root {
+    --color-withe: #fff;
+    --color-black: #000;
+    --color-yellow: #FFE500;
+    --color-gray: #636363;
+    --color-light-gray: #E8E8E8;
+    --color-blue: #3483FA;
+    --color-green: #0CAF1D;
+  }
+
+/* ESTILIZANDO CABEÇALHO */
+
+header {
+    background-color: var(--color-yellow);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a, a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+nav {
+    color: var(--color-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn-login {
+    color: var(--color-gray);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ESTILIZANDO MAIN */
+
+.card {
+    background-color: red;
+}
+
+#product-details {
+    padding: 20px 0;
+}
