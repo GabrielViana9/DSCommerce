@@ -23,6 +23,10 @@ html, body {
     --color-green: #0CAF1D;
 }
 
+main {
+    padding: 0 20px;
+}
+
 /* ---------------------------------------------------------------------------------------------------------------------- */
 /* Generic Styles */
 
@@ -43,6 +47,7 @@ html, body {
 header {
     background-color: var(--color-yellow);
     height: 70px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
 }
@@ -92,9 +97,15 @@ nav a {
 /* Botton Styles */
 
 .dsc-btn-page-container {
-    width: 220px;
+    width: 100%;
     display: grid;
     grid-gap: 20px;
+}
+
+@media (min-width: 576px) {
+    .dsc-btn-page-container {
+        width: 220px;
+    }
 }
 
 .dsc-btn {
