@@ -21,20 +21,30 @@ html, body {
     --color-secondary-gray: #D9D9D9;
     --color-blue: #3483FA;
     --color-green: #0CAF1D;
-  }
+}
 
-/* ESTILIZANDO CABEÇALHO */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Generic Styles */
+
+.dsc-container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dsc-mb20 {
+    margin-bottom: 20px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Header Styles */
 
 header {
     background-color: var(--color-yellow);
     height: 70px;
     display: flex;
     align-items: center;
-}
-
-header h1 {
-    font-size: 24px;
-    font-weight: 700;
 }
 
 a, a:hover {
@@ -49,10 +59,14 @@ nav {
     align-items: center;
 }
 
-.dsc-container {
-    max-width: 960px;
-    width: 100%;
-    margin: 0 auto;
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .dsc-btn-login {
@@ -61,7 +75,8 @@ nav {
     font-size: 14px;
 }
 
-/* ESTILIZANDO MAIN */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Card Styles */
 
 .dsc-card {
     border: 1px solid var(--color-secondary-gray);
@@ -73,9 +88,8 @@ nav {
     border-bottom: 1px solid var(--color-secondary-gray);
 }
 
-.dsc-mb20 {
-    margin-bottom: 20px;
-}
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Botton Styles */
 
 .dsc-btn-page-container {
     width: 220px;
