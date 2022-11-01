@@ -49,13 +49,13 @@ nav {
     align-items: center;
 }
 
-.container {
+.dsc-container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
 }
 
-.btn-login {
+.dsc-btn-login {
     color: var(--color-gray);
     font-weight: 700;
     font-size: 14px;
@@ -63,27 +63,27 @@ nav {
 
 /* ESTILIZANDO MAIN */
 
-.card {
+.dsc-card {
     border: 1px solid var(--color-secondary-gray);
     background-color: var(--color-withe);
     border-radius: 4px;
 }
 
-.line-bottom {
+.dsc-line-bottom {
     border-bottom: 1px solid var(--color-secondary-gray);
 }
 
-.mb20 {
+.dsc-mb20 {
     margin-bottom: 20px;
 }
 
-.btn-page-container {
+.dsc-btn-page-container {
     width: 220px;
     display: grid;
     grid-gap: 20px;
 }
 
-.btn {
+.dsc-btn {
     cursor: pointer;
     border-radius: 4px;
     height: 42px;
@@ -94,11 +94,11 @@ nav {
     justify-content: center;
 }
 
-.btn-blue {
+.dsc-btn-blue {
     background-color: var(--color-blue);
     color: var(--color-withe);
 }
-.btn-white {
+.dsc-btn-white {
     background-color: var(--color-withe);
     color: var(--color-blue);
     border: 1px solid var(--color-blue);
